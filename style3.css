@@ -1,0 +1,64 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 25px;
+    display: grid;
+    text-align: left;
+    background-color: #fef5d3;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sage-webfont.ttf);
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 34pt;
+  text-align: center;
+  font-family: myFirstFont;
+  padding: 10px;
+}
+
+nav {
+  font-size: 18pt;
+  font-weight: lighter;
+  margin-left: 250px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+form {
+  font-weight: lighter;
+  font-size: 16pt;
+  margin-left: 250px;
+  margin-top: 25px;
+}
+
+input[type=text] {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-count: 2;
+}
+
+@font-face {
+  font-family: myFourthFont;
+  src: url(Classico.otf);
+}
+
+#responses {
+  font-family: myFourthFont;
+  font-size: 12pt;
+  color: antiquewhite;
+  text-align: center;
+}
