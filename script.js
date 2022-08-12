@@ -1,4 +1,17 @@
-const inputTarget = document.getElementById ('details');
+function version1 (){
+    document.getElementById ('concepts').src="Wedding_invite_plain.jpg";
+    document.getElementById ('responses1').style.fontFamily = 'mySecondFont';
+}
+
+function version2 (){
+    document.getElementById ('concepts').src="Wedding_invite_rose.jpg";
+    document.getElementById ('responses2').style.fontFamily = 'myThirdFont';
+}
+
+function version3 (){
+    document.getElementById ('concepts').src="Wedding_invite_art_deco.jpg";
+    document.getElementById ('responses3').style.fontFamily = 'myFourthFont';
+}
 
 const showDetails = document.getElementsByClassName ('details');
 const showDate = document.getElementsByClassName ('date');

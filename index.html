@@ -11,36 +11,56 @@
   <h1>Wedding Invitation Designer</h1>
 
   <body>
-    <nav>
-      <a href="./index.html" class="navBar">Monochrome |</a>
-      <a href="./invite2.html" class="navBar">Rose |</a>
-      <a href="./invite3.html" class="navBar">Art Deco</a>
-    </nav>
 
-  <div class="items">
+  <div class="wrapper">
+    <div class ="column1">
+    <nav class="navBar">
+      <a href="#"onclick="version1">| Minimalist |</a>
+      <a href="#"onclick="version2">| Rose |</a>
+      <a href="#"onclick="version3">| Vintage |</a>
+    </nav>
+    <br>
+
     <form action="">
       <label for="details">Details:</label><br>
-      <input type="text" id="details" name="details"><br>
+      <input type="text" id="details" name="details" onkeyup="getDetails()"><br>
       <label for="date">Date:</label><br>
-      <input type="text" id="date" name="date"><br>
+      <input type="text" id="date" name="date" onkeyup="getDate()"><br>
       <label for="Time">Time:</label><br>
-      <input type="text" id="time" name="time"><br>
+      <input type="text" id="time" name="time" onkeyup="getTime()"><br>
       <label for="location">Location:</label><br>
-      <input type="text" id="location" name="location"><br>
+      <input type="text" id="location" name="location" onkeyup="getLocation()"><br>
     </form>
+  </div>
 
-
-   <div class="invitation">
-     <img src="Wedding_invite_plain.jpg" alt="Plain invite">
-     <div id="responses">
+   <div class="column2">
+    <div class="invitation">
+     <img id="concepts" src="Wedding_invite_plain.jpg" alt="Plain invite">
+     
+     <div id="responses1">
       <p class="details" id="details"></p>
       <p class="date" id="date"></p>
       <p class="time" id="time"></p>
       <p class="location" id="location"></p>
      </div>
-   </div>
 
-</div>
+     <div id="responses2">
+      <p class="details" id="details"></p>
+      <p class="date" id="date"></p>
+      <p class="time" id="time"></p>
+      <p class="location" id="location"></p>
+     </div>
+
+     <div id="responses3">
+      <p class="details" id="details"></p>
+      <p class="date" id="date"></p>
+      <p class="time" id="time"></p>
+      <p class="location" id="location"></p>
+     </div>
+
+    </div>
+   </div>
+  </div>
 
   <script src="script.js"></script>
   </body>
