@@ -1,0 +1,109 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 25px;
+    display: grid;
+    text-align: left;
+    background-color: #cbdbcd;
+  }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sage-webfont.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(HV\ Harietta\ Regular.ttf);
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url(IridescentSansSerif-Regular.otf);
+}
+
+@font-face {
+  font-family: myFourthFont;
+  src: url(Classico.otf);
+}
+  
+h1 {
+    font-weight: lighter;
+    font-size: 34pt;
+    text-align: center;
+    font-family: myFirstFont;
+    padding: 10px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-count: 2;
+}
+
+nav {
+  
+  font-size: 18pt;
+  font-weight: lighter;
+  margin-left: 250px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+form {
+  font-weight: lighter;
+  font-size: 16pt;
+  margin-left: 250px;
+  margin-top: 25px;
+}
+
+input[type=text] {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#responses1 {
+  font-family: mySecondFont;
+  font-size: 12pt;
+  text-align: center;
+}
+
+#responses2 {
+  font-family: myThirdFont;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#responses3 {
+  font-family: myFourthFont;
+  font-size: 12pt;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.minimalist {
+  background-image: url('Wedding_invite_plain.jpg');
+  width: 500 px;
+  height: 800 px;
+}
+
+.rose {
+  background-image: url('Wedding_invite_rose.jpg');
+  width: 500 px;
+  height: 800 px;
+}
+
+.vintage {
+  background-image: url('Wedding_invite_art_deco.jpg');
+  width: 500 px;
+  height: 800 px; 
+}
+
+
+
+

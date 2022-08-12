@@ -5,19 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding Invitation Preview</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
   </head>
 
   <h1>Wedding Invitation Designer</h1>
 
   <body>
-    <nav>
+
+  <div class="wrapper">
+    <div class ="column1">
+    <nav class="navBar">
       <button id="minimalist">| Minimalist |</button>
       <button id="rose">| Rose |</button>
       <button id="vintage">| Vintage |</button>
     </nav>
+    <br>
 
-  <div class="items">
     <form action="">
       <label for="details">Details:</label><br>
       <input type="text" id="details" name="details"><br>
@@ -28,16 +31,23 @@
       <label for="location">Location:</label><br>
       <input type="text" id="location" name="location"><br>
     </form>
+    </div>
 
-   <div id="image" class="invitation">
-     <div id="responses">
-      <p  id="details1"></p>
-      <p  id="date1" ></p>
-      <p  id="time1"></p>
-      <p  id="location1"></p>
+   <div class="column2">
+    <div class="invitation">
+     <img id="concepts" src="Wedding_invite_plain.jpg" alt="Plain invite">
+     
+     <div id="responses1">
+      <p class="details" id="details1"></p>
+      <p class="date" id="date1"></p>
+      <p class="time" id="time1"></p>
+      <p class="location" id="location1"></p>
      </div>
+
+    </div>
    </div>
-</div>
+  </div>
+
   <script src="script.js"></script>
   </body>
 </html>
